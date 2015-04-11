@@ -5,6 +5,8 @@ NProgress.configure({ showSpinner: false });
 var materialeditor = function() {
     NProgress.start();
     setTimeout(function (){
+        $("#floating-nav-btn").removeClass("purple");
+        $("#floating-nav-btn").addClass("pink");
         changeStyles("orange", "light-blue", "assets/Material-labs-small.png");
         content.innerHTML = "<iframe src = 'materialeditor.html' id = 'frame' frameborder='0'></iframe>";
     }, 800);
@@ -37,6 +39,8 @@ var changeStyles = function(currColor, colorToChange, img_path){
 var materialmarkdown = function() {
     NProgress.start();
     setTimeout(function (){
+        $("#floating-nav-btn").removeClass("pink");
+        $("#floating-nav-btn").addClass("purple");
         changeStyles("light-blue", "orange", "assets/Material-labs-small-orange.png");
         content.innerHTML = "<iframe src = 'materialmarkdown.html' id = 'frame' frameborder='0'></iframe>";
     }, 800);
@@ -45,6 +49,8 @@ var materialmarkdown = function() {
 var materialwriter = function() {
     NProgress.start();
     setTimeout(function (){
+        $("#floating-nav-btn").removeClass("purple");
+        $("#floating-nav-btn").addClass("pink");
         changeStyles("orange", "light-blue", "assets/Material-labs-small.png");
         content.innerHTML = "<iframe src = 'materialwriter.html' id = 'frame' frameborder='0'></iframe>";
     }, 800);
@@ -53,6 +59,8 @@ var materialwriter = function() {
 var materialviewer = function() {
     NProgress.start();
     setTimeout(function (){
+        $("#floating-nav-btn").removeClass("purple");
+        $("#floating-nav-btn").addClass("pink");
         changeStyles("orange", "light-blue", "assets/Material-labs-small.png");
         content.innerHTML = "<iframe src = 'materialviewer.html' id = 'frame' frameborder='0'></iframe>";
     }, 800);
@@ -61,6 +69,8 @@ var materialviewer = function() {
 var main_page = function() {
     NProgress.start();
     setTimeout(function (){
+        $("#floating-nav-btn").removeClass("purple");
+        $("#floating-nav-btn").addClass("pink");
         changeStyles("orange", "light-blue", "assets/Material-labs-small.png");
         content.innerHTML = "<iframe src = 'main-page.html' id = 'frame' frameborder='0'></iframe>";
     }, 800);
