@@ -16,6 +16,10 @@ var changeStyles = function(currColor, colorToChange, img_path){
             $(this).removeClass(currColor);
             $(this).addClass(colorToChange);
         });
+        //fix for double scrollbar when embedding route views
+        $("#frame-body").css({
+            "overflow": "hidden"
+        });
         $("#dropdown1").removeClass(currColor);
         $("#dropdown1").addClass(colorToChange);
         $("#nav-mobile").removeClass(currColor);
