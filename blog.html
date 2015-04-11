@@ -9,11 +9,12 @@
   <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script src = "director/build/director.min.js"></script>
 </head>
-<body>
+<body class = "light-blue">
 
 
   <div class="section" ng-controller = "cardsController">
     <div class="container">
+        <h2 class = "white-text">Recent Posts</h2>
         <div class="card" ng-repeat = "card in cards">
             <div class="card-content">
                 <span class="card-title"><a class = "blue-text" href="">{{card.title}}</a></span>

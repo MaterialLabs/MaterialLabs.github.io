@@ -76,12 +76,23 @@ var main_page = function() {
     }, 800);
 }
 
+var blog = function() {
+    NProgress.start();
+    setTimeout(function (){
+        $("#floating-nav-btn").removeClass("purple");
+        $("#floating-nav-btn").addClass("pink");
+        changeStyles("orange", "light-blue", "assets/Material-labs-small.png");
+        content.innerHTML = "<iframe src = 'blog.html' id = 'frame' frameborder='0'></iframe>";
+    }, 800);
+}
+
 var routes = {
     "/materialeditor": materialeditor,
     "/materialmarkdown": materialmarkdown,
     "/materialwriter": materialwriter,
     "/materialviewer": materialviewer,
-    "/main-page": main_page
+    "/main-page": main_page,
+    "/blog": blog
 };
 
 var router = Router(routes);
