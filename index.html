@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Material Labs</title>
+
+  <!-- CSS  -->
+  <link href="bower_components/materialize/dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src = "director/build/director.min.js"></script>
+  <script src='bower_components/nprogress/nprogress.js'></script>
+  <link rel='stylesheet' href='bower_components/nprogress/nprogress.css'/>
+  <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+  <link rel="stylesheet" href="css/main-page.css">
+  <link rel="icon" type="image/png" href="assets/Material-Labs.png">
+</head>
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content light-blue darken-4">
+        <li><a class = "white-text" href="#/materialeditor">Material Editor</a></li>
+        <li><a class = "white-text" href="#/materialmarkdown">Material Markdown</a></li>
+        <li><a class = "white-text" href="#/materialviewer">Material Viewer</a></li>
+        <li><a class = "white-text" href="#/materialwriter">Material Writer</a></li>
+    </ul>
+
+  <nav class = "light-blue darken-4" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper">
+          <img src="assets/Material-labs-small.png" id = "logo-img" class = "responsive-img logo hide-on-med-and-down" alt="">
+          <a id="logo-container" href="#/main-page" class="brand-logo hide-on-med-and-down">Material Labs</a>
+        <ul class="right hide-on-med-and-down">
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Products<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+          <li><a class = "btn light-blue" id = "blog-btn" href="blog.html">Blog</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav light-blue darken-4">
+            <li><a class = "white-text" href="#/main-page">Welcome</a></li>
+            <li class="divider light-blue mobile-divider"></li>
+            <li><p class = "flow-text disabled white-text">Products</p></li>
+            <li><a class = "white-text" href="#/materialeditor">Material Editor</a></li>
+            <li><a class = "white-text" href="#/materialmarkdown">Material Markdown</a></li>
+            <li><a class = "white-text" href="#/materialviewer">Material Viewer</a></li>
+            <li><a class = "white-text" href="#/materialwriter">Material Writer</a></li>
+            <li class="divider light-blue mobile-divider"></li>
+            <li><a class = "white-text" href="blog.html">Blog</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <div id = 'content'>
+
+      <div class="section no-pad-bot" style = "background-color: #00b0ff;" id="index-banner">
+        <div class="container">
+          <br><br>
+          <br><br>
+          <h1 class="header center white-text hide-on-small-only">Experience Material Design</h1>
+          <h2 class="header center white-text hide-on-med-and-up">Experience Material Design</h2>
+          <div class="row center">
+            <h5 class="header col s12 light">An Application suite for Mac built around the design principles of Material Design</h5>
+          </div>
+          <div class="row center">
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light light-blue darken-4">See the Products</a>
+          </div>
+          <br><br>
+          <br><br>
+
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="section no-pad-bot">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi-image-flash-on"></i></h2>
+                <h5 class="center">Speeds up development</h5>
+
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi-social-group"></i></h2>
+                <h5 class="center">User Experience Focused</h5>
+
+                <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center light-blue-text"><i class="mdi-action-settings"></i></h2>
+                <h5 class="center">Easy to work with</h5>
+
+                <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br><br>
+      </div>
+
+      <!-- PRODUCTS -->
+      <div class="section no-pad-bot">
+          <div class="section no-pad-top light-blue accent-2">
+              <div class="row no-pad-bot no-pad-top blue darken-4">
+                  <div class="col s12">
+                      <h1 class = "center blue-grey-text text-lighten-4 hide-on-small-only">The Products</h1>
+                      <h3 class = "center blue-grey-text text-lighten-4 hide-on-med-and-up">The Products</h3>
+                  </div>
+              </div>
+              <div class="row top-fix">
+                  <div class="col l6 m12">
+                      <img class = "materialboxed center-on-small-only responsive-img z-depth-4" src="assets/editor-small.png" alt="Material Editor">
+                  </div>
+                  <div class="col l6 m12">
+                      <h1 class = "blue-text text-darken-4 hide-on-small-only">Material Editor</h1>
+                      <h3 class = "blue-text text-darken-4 center hide-on-med-and-up">Material Editor</h3>
+                      <p class = "flow-text blue-text center-on-small-only text-darken-4">Material Editor is a sophisticated text editor built using
+                      the <a class = "pink-text" href="http://ace.c9.io/#nav=about">Ace</a> editor. It is perfect for any kind of coding...best of all, like all Material products
+                      it is open source!</p>
+                      <a class="center-on-small-only waves-effect waves-light btn blue darken-4" href = "materialeditor.html">Go to page</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="section blue darken-4">
+              <div class="row top-fix">
+                  <div class="col l6 m12">
+                      <h1 class = "white-text hide-on-small-only">Material Markdown</h1>
+                      <h3 class = "white-text center hide-on-med-and-up">Material Markdown</h3>
+                      <p class = "center-on-small-only flow-text white-text">Material Editor is a sophisticated text editor built using
+                      the <a class = "pink-text" href="http://ace.c9.io/#nav=about">Ace</a> editor. It is perfect for any kind of coding...best of all, like all Material products
+                      it is open source!</p>
+                      <a class="waves-effect waves-light btn light-blue" href = "materialeditor.html">Go to page</a>
+                  </div>
+                  <div class="col l6 m12">
+                      <img class = "materialboxed center-on-small-only responsive-img z-depth-4" src="assets/editor-small.png" alt="Material Editor">
+                  </div>
+              </div>
+          </div>
+
+          <div class="section light-blue accent-2">
+              <div class="row top-fix">
+                  <div class="col l6 m12">
+                      <img class = "materialboxed center-on-small-only responsive-img z-depth-4" src="assets/editor-small.png" alt="Material Editor">
+                  </div>
+                  <div class="col l6 m12">
+                      <h1 class = "blue-text text-darken-4 hide-on-small-only">Material Viewer</h1>
+                      <h3 class = "blue-text text-darken-4 center hide-on-med-and-up">Material Viewer</h3>
+                      <p class = "center-on-small-only flow-text blue-text text-darken-4">Material Editor is a sophisticated text editor built using
+                      the <a class = "pink-text" href="http://ace.c9.io/#nav=about">Ace</a> editor. It is perfect for any kind of coding...best of all, like all Material products
+                      it is open source!</p>
+                      <a class="center-on-small-only waves-effect waves-light btn blue darken-4" href = "materialeditor.html">Go to page</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="section blue darken-4">
+              <div class="row top-fix">
+                  <div class="col l6 m12">
+                      <h1 class = "white-text hide-on-small-only">Material Writer</h1>
+                      <h3 class = "white-text center hide-on-med-and-up">Material Writer</h3>
+                      <p class = "center-on-small-only flow-text white-text">This is an writer</p>
+                  </div>
+                  <div class="col l6 m12">
+                      <img class = "materialboxed center-on-small-only responsive-img z-depth-4" src="assets/editor-small.png" alt="Material Editor">
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <!-- CONTACT US SECTION -->
+
+      <div class="section no-pad-bot">
+          <div class="row">
+              <h1 class = "blue-text text-darken-4 center">Contact Us</h1>
+          </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col m6 s12">
+                  <input id="input_text" type="text" length="30" class = "validate">
+                  <label for="input_text">Name</label>
+                </div>
+                <div class="input-field col m6 s12">
+                  <input id="input_text" type="text" length="30">
+                  <label for="input_text">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+              <div class="row hide-on-small-only">
+                  <div class="col m2 s4">
+                      <button class="btn light-blue waves-effect waves-light hide-on-small-only" type="submit" name="action">Submit
+                         <i class="mdi-content-send right"></i>
+                       </button>
+                  </div>
+                  <div class="col m10 s12">
+                      <!-- Switch -->
+                      <div class="switch">
+                        <label>
+                          <input type="checkbox">
+                          <span class="lever"></span>
+                          Recieve Updates about Material Products
+                        </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row center hide-on-med-and-up">
+                  <button id = "submit-sm" class="btn-large light-blue waves-effect waves-light hide-on-med-and-up" type="submit" name="action">Submit
+                     <i class="mdi-content-send right"></i>
+                  </button>
+              </div>
+              <div class="row center hide-on-med-and-up">
+                  <!-- Switch -->
+                  <div class="switch">
+                    <label>
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      Recieve Updates about Material Products
+                    </label>
+                  </div>
+              </div>
+            </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+
+      <footer class="page-footer no-pad-top light-blue darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Company Bio</h5>
+              <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Settings</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Link 1</a></li>
+                <li><a class="white-text" href="#!">Link 2</a></li>
+                <li><a class="white-text" href="#!">Link 3</a></li>
+                <li><a class="white-text" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Link 1</a></li>
+                <li><a class="white-text" href="#!">Link 2</a></li>
+                <li><a class="white-text" href="#!">Link 3</a></li>
+                <li><a class="white-text" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright blue darken-4">
+          <div class="container">
+          Made with <a class="blue-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+          </div>
+        </div>
+      </footer>
+  </div> <!-- end content -->
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="bower_components/materialize/dist/js/materialize.js"></script>
+  <script src="js/main.js"></script>
+  <script src = "js/routing.js"></script>
+
+  </body>
+</html>

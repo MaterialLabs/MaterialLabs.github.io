@@ -1,0 +1,20 @@
+.top-fix {
+  padding-top: 15px; }
+
+.logo {
+  padding-top: 8px;
+  padding-right: 4px; }
+
+#dropdown1 {
+  margin-top: 64px; }
+
+#frame {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+.thick-text {
+  font-weight: 500; }
